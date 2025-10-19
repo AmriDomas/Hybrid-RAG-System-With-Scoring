@@ -1,0 +1,3 @@
+Machine learning is a method of data analysis that automates analytical model building.
+Deep learning is part of a broader family of machine learning methods based on artificial neural networks.
+Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence.

@@ -1,0 +1,9 @@
+title,content,category,tags
+Sales Report Q1,Total revenue for Q1 2024 is $450000. Product A contributed $180000 and Product B contributed $270000. Growth rate compared to Q4 2023 is 15%.,Sales,"sales,revenue,quarterly"
+Sales Report Q2,Q2 2024 revenue reached $520000. Product A sales increased to $210000 and Product B to $310000. Quarter over quarter growth is 15.5%.,Sales,"sales,revenue,quarterly"
+Customer Satisfaction Survey,Customer satisfaction score is 8.5 out of 10. Survey includes 500 respondents. Top complaint is delivery time at 25% of responses.,Customer,"survey,satisfaction,feedback"
+Product Performance Analysis,Product A has 35% market share with 12000 units sold. Product B has 45% market share with 15000 units sold. Product C is underperforming at 20% with 6000 units.,Products,"products,analysis,market"
+Operational Costs Review,Total operational costs for 2024 are $180000. Breakdown: Personnel $100000 Marketing $45000 Infrastructure $35000.,Finance,"costs,operations,finance"
+Market Research Summary,Target market size is estimated at 2.5 million potential customers. Current market penetration is 4.8%. Competitor analysis shows average price point of $29.99.,Research,"market,research,analysis"
+Employee Performance Metrics,Average employee productivity score is 7.8 out of 10. Department A: 8.2 Department B: 7.5 Department C: 7.7. Turnover rate is 12%.,HR,"hr,performance,employees"
+Technology Infrastructure Report,Current server capacity utilization is 65%. Average response time is 250ms. Uptime for the quarter is 99.7%. Infrastructure costs $35000 per quarter.,IT,"technology,infrastructure,it"

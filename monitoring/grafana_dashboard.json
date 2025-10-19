@@ -1,0 +1,108 @@
+{
+  "dashboard": {
+    "title": "Hybrid RAG System Monitoring",
+    "timezone": "browser",
+    "panels": [
+      {
+        "id": 1,
+        "title": "Query Rate",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 0},
+        "targets": [
+          {
+            "expr": "rate(rag_queries_total[5m])",
+            "legendFormat": "{{retrieval_method}} - {{status}}"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Average Latency",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 0},
+        "targets": [
+          {
+            "expr": "rate(rag_total_duration_seconds_sum[5m]) / rate(rag_total_duration_seconds_count[5m])",
+            "legendFormat": "Total Latency (avg)"
+          },
+          {
+            "expr": "rate(rag_retrieval_duration_seconds_sum[5m]) / rate(rag_retrieval_duration_seconds_count[5m])",
+            "legendFormat": "Retrieval Latency (avg)"
+          },
+          {
+            "expr": "rate(rag_generation_duration_seconds_sum[5m]) / rate(rag_generation_duration_seconds_count[5m])",
+            "legendFormat": "Generation Latency (avg)"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Token Usage",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8},
+        "targets": [
+          {
+            "expr": "rate(rag_tokens_total[5m])",
+            "legendFormat": "{{model}} - {{type}}"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Documents Retrieved",
+        "type": "graph",
+        "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8},
+        "targets": [
+          {
+            "expr": "rate(rag_documents_retrieved_sum[5m]) / rate(rag_documents_retrieved_count[5m])",
+            "legendFormat": "Avg Documents per Query"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Active Queries",
+        "type": "stat",
+        "gridPos": {"h": 4, "w": 6, "x": 0, "y": 16},
+        "targets": [
+          {
+            "expr": "rag_active_queries"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Indexed Documents",
+        "type": "stat",
+        "gridPos": {"h": 4, "w": 6, "x": 6, "y": 16},
+        "targets": [
+          {
+            "expr": "rag_indexed_documents"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "P95 Latency",
+        "type": "stat",
+        "gridPos": {"h": 4, "w": 6, "x": 12, "y": 16},
+        "targets": [
+          {
+            "expr": "histogram_quantile(0.95, rate(rag_total_duration_seconds_bucket[5m]))"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Error Rate",
+        "type": "stat",
+        "gridPos": {"h": 4, "w": 6, "x": 18, "y": 16},
+        "targets": [
+          {
+            "expr": "rate(rag_queries_total{status=\"error\"}[5m]) / rate(rag_queries_total[5m])"
+          }
+        ]
+      }
+    ]
+  }
+}

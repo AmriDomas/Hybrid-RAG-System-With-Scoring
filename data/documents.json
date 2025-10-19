@@ -1,0 +1,90 @@
+[
+  {
+    "id": "doc1",
+    "title": "Machine Learning Basics",
+    "content": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed. It focuses on developing computer programs that can access data and use it to learn for themselves. The process involves training algorithms on datasets to recognize patterns and make decisions.",
+    "category": "ML",
+    "metadata": {
+      "author": "Data Science Team",
+      "date": "2024-01-15",
+      "tags": ["ml", "basics", "ai"]
+    }
+  },
+  {
+    "id": "doc2",
+    "title": "Deep Learning Neural Networks",
+    "content": "Deep learning is a machine learning technique that teaches computers to do what comes naturally to humans: learn by example. It uses neural networks with multiple layers (hence 'deep') to progressively extract higher-level features from raw input. For example, in image processing, lower layers may identify edges, while higher layers identify human-relevant concepts.",
+    "category": "DL",
+    "metadata": {
+      "author": "AI Research Lab",
+      "date": "2024-02-20",
+      "tags": ["deep learning", "neural networks", "ai"]
+    }
+  },
+  {
+    "id": "doc3",
+    "title": "RAG Systems Architecture",
+    "content": "Retrieval-Augmented Generation (RAG) combines the power of large language models with external knowledge bases. It works by retrieving relevant documents from a vector database and augmenting the LLM prompt with this context. This approach reduces hallucinations and allows LLMs to access up-to-date information beyond their training data cutoff.",
+    "category": "RAG",
+    "metadata": {
+      "author": "NLP Team",
+      "date": "2024-03-10",
+      "tags": ["rag", "llm", "retrieval"]
+    }
+  },
+  {
+    "id": "doc4",
+    "title": "Vector Databases Explained",
+    "content": "Vector databases store high-dimensional embeddings and enable similarity search through techniques like cosine similarity or Euclidean distance. They are essential for RAG systems, recommendation engines, and semantic search applications. Popular options include ChromaDB, Pinecone, and Weaviate.",
+    "category": "Database",
+    "metadata": {
+      "author": "Data Engineering Team",
+      "date": "2024-03-25",
+      "tags": ["vector db", "embeddings", "search"]
+    }
+  },
+  {
+    "id": "doc5",
+    "title": "LLMOps Best Practices",
+    "content": "LLMOps involves managing the lifecycle of large language models in production. Key practices include prompt versioning, monitoring token usage, tracking latency and costs, implementing caching strategies, and A/B testing different models or prompts. Observability through metrics and logging is crucial for debugging and optimization.",
+    "category": "MLOps",
+    "metadata": {
+      "author": "DevOps Team",
+      "date": "2024-04-05",
+      "tags": ["llmops", "mlops", "production"]
+    }
+  },
+  {
+    "id": "doc6",
+    "title": "Prompt Engineering Techniques",
+    "content": "Effective prompt engineering can dramatically improve LLM outputs. Techniques include few-shot learning (providing examples), chain-of-thought prompting (asking models to reason step-by-step), and system messages to set context. Temperature and top-p parameters control output randomness and diversity.",
+    "category": "LLM",
+    "metadata": {
+      "author": "AI Research Lab",
+      "date": "2024-04-15",
+      "tags": ["prompts", "llm", "techniques"]
+    }
+  },
+  {
+    "id": "doc7",
+    "title": "Model Evaluation Metrics",
+    "content": "Evaluating machine learning models requires appropriate metrics. For classification: accuracy, precision, recall, F1-score, and AUC-ROC. For regression: MSE, RMSE, MAE, and R-squared. For LLMs: perplexity, BLEU, ROUGE scores, and human evaluation. Always consider the business context when choosing metrics.",
+    "category": "ML",
+    "metadata": {
+      "author": "Data Science Team",
+      "date": "2024-04-20",
+      "tags": ["evaluation", "metrics", "ml"]
+    }
+  },
+  {
+    "id": "doc8",
+    "title": "Hybrid Search Strategies",
+    "content": "Hybrid search combines semantic search (using embeddings) with keyword search (BM25) to leverage both semantic understanding and exact matching. This approach often outperforms either method alone. Results can be combined using reciprocal rank fusion or learned weights.",
+    "category": "RAG",
+    "metadata": {
+      "author": "Search Team",
+      "date": "2024-05-01",
+      "tags": ["hybrid search", "rag", "retrieval"]
+    }
+  }
+]

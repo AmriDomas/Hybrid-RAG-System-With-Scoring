@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fin_001",
+    "title": "Revenue Analysis 2024",
+    "content": "Annual revenue projections for 2024 show expected growth of 22%. Q1 actual revenue was $450000, Q2 was $520000. Based on current trends, Q3 is projected at $580000 and Q4 at $650000, bringing total annual revenue to approximately $2.2 million. The increase is driven primarily by Product B performance and market expansion in the Southeast region.",
+    "category": "Financial Analysis",
+    "metadata": {
+      "author": "Finance Team",
+      "date": "2024-07-15",
+      "department": "Finance",
+      "tags": ["revenue", "projections", "annual", "analysis"]
+    }
+  },
+  {
+    "id": "fin_002",
+    "title": "Cost Optimization Report",
+    "content": "Cost reduction initiatives have saved $75000 in the first half of 2024. Major savings come from: Cloud infrastructure migration ($30000), Automated customer service ($25000), Supply chain optimization ($20000). Additional savings of $50000 are targeted for H2 through vendor renegotiation and process automation.",
+    "category": "Cost Management",
+    "metadata": {
+      "author": "Operations Team",
+      "date": "2024-06-30",
+      "department": "Operations",
+      "tags": ["cost", "savings", "optimization", "efficiency"]
+    }
+  },
+  {
+    "id": "fin_003",
+    "title": "Investment Portfolio Update",
+    "content": "Current investment portfolio value stands at $850000 with a YTD return of 8.5%. Asset allocation: Stocks 45% ($382500), Bonds 30% ($255000), Real Estate 15% ($127500), Cash 10% ($85000). The portfolio has outperformed benchmark index by 2.3 percentage points. Risk assessment remains moderate with a beta of 0.85.",
+    "category": "Investments",
+    "metadata": {
+      "author": "Investment Team",
+      "date": "2024-08-01",
+      "department": "Finance",
+      "tags": ["investments", "portfolio", "returns", "assets"]
+    }
+  },
+  {
+    "id": "fin_004",
+    "title": "Profitability Metrics Q2",
+    "content": "Q2 gross profit margin improved to 42% from 38% in Q1. Net profit margin reached 18% compared to 15% previous quarter. EBITDA for Q2 was $156000 with an EBITDA margin of 30%. Operating expenses were reduced by 8% while revenue increased by 15.5%, demonstrating operational efficiency improvements.",
+    "category": "Profitability",
+    "metadata": {
+      "author": "CFO Office",
+      "date": "2024-07-10",
+      "department": "Finance",
+      "tags": ["profitability", "margins", "ebitda", "efficiency"]
+    }
+  },
+  {
+    "id": "fin_005",
+    "title": "Cash Flow Statement Analysis",
+    "content": "Operating cash flow for H1 2024 is $380000, a 25% increase YoY. Free cash flow stands at $280000 after capital expenditures of $100000. Cash conversion cycle improved to 45 days from 52 days. Current cash reserves total $650000, providing 8.5 months of operating runway. No additional financing required for 2024 operations.",
+    "category": "Cash Flow",
+    "metadata": {
+      "author": "Finance Team",
+      "date": "2024-07-20",
+      "department": "Finance",
+      "tags": ["cash flow", "liquidity", "working capital", "reserves"]
+    }
+  }
+]

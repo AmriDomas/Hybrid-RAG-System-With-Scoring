@@ -1,0 +1,97 @@
+[
+  {
+    "question": "What was the total revenue for Q1 2024?",
+    "ground_truth": "The total revenue for Q1 2024 was $450,000.",
+    "relevant_docs": ["csv_0"],
+    "relevance_scores": {
+      "csv_0": 3.0,
+      "csv_1": 1.0
+    },
+    "category": "factual"
+  },
+  {
+    "question": "Calculate the total revenue from Q1 and Q2 2024",
+    "ground_truth": "Q1 revenue was $450,000 and Q2 revenue was $520,000, totaling $970,000.",
+    "relevant_docs": ["csv_0", "csv_1"],
+    "relevance_scores": {
+      "csv_0": 3.0,
+      "csv_1": 3.0
+    },
+    "category": "calculation"
+  },
+  {
+    "question": "What is the customer satisfaction score?",
+    "ground_truth": "The customer satisfaction score is 8.5 out of 10, based on 500 respondents.",
+    "relevant_docs": ["csv_2"],
+    "relevance_scores": {
+      "csv_2": 3.0
+    },
+    "category": "factual"
+  },
+  {
+    "question": "Compare Product A and Product B market share",
+    "ground_truth": "Product A has 35% market share with 12,000 units sold, while Product B has 45% market share with 15,000 units sold.",
+    "relevant_docs": ["csv_3"],
+    "relevance_scores": {
+      "csv_3": 3.0
+    },
+    "category": "comparison"
+  },
+  {
+    "question": "What are the total operational costs and their breakdown?",
+    "ground_truth": "Total operational costs are $180,000, broken down as: Personnel $100,000, Marketing $45,000, and Infrastructure $35,000.",
+    "relevant_docs": ["csv_4"],
+    "relevance_scores": {
+      "csv_4": 3.0
+    },
+    "category": "factual"
+  },
+  {
+    "question": "Calculate the profit margin based on Q1-Q2 revenue and operational costs",
+    "ground_truth": "Total revenue (Q1+Q2) is $970,000 and operational costs are $180,000. Profit is $790,000, giving a profit margin of 81.4%.",
+    "relevant_docs": ["csv_0", "csv_1", "csv_4"],
+    "relevance_scores": {
+      "csv_0": 2.5,
+      "csv_1": 2.5,
+      "csv_4": 3.0
+    },
+    "category": "calculation"
+  },
+  {
+    "question": "What is the market size and current penetration rate?",
+    "ground_truth": "The target market size is 2.5 million potential customers with a current market penetration of 4.8%.",
+    "relevant_docs": ["csv_5"],
+    "relevance_scores": {
+      "csv_5": 3.0
+    },
+    "category": "factual"
+  },
+  {
+    "question": "Which department has the highest employee productivity score?",
+    "ground_truth": "Department A has the highest productivity score at 8.2 out of 10.",
+    "relevant_docs": ["csv_6"],
+    "relevance_scores": {
+      "csv_6": 3.0
+    },
+    "category": "comparison"
+  },
+  {
+    "question": "What is the average employee productivity across all departments?",
+    "ground_truth": "The average employee productivity score across all departments is 7.8 out of 10.",
+    "relevant_docs": ["csv_6"],
+    "relevance_scores": {
+      "csv_6": 3.0
+    },
+    "category": "calculation"
+  },
+  {
+    "question": "Analyze the Q2 growth rate compared to Q1",
+    "ground_truth": "Q2 revenue of $520,000 represents a 15.5% growth over Q1 revenue of $450,000, calculated as ($520,000 - $450,000) / $450,000 * 100 = 15.56%.",
+    "relevant_docs": ["csv_0", "csv_1"],
+    "relevance_scores": {
+      "csv_0": 3.0,
+      "csv_1": 3.0
+    },
+    "category": "calculation"
+  }
+]

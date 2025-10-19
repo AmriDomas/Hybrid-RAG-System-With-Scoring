@@ -1,0 +1,20 @@
+# OpenAI API Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Model Configuration
+DEFAULT_MODEL=gpt-4
+DEFAULT_TEMPERATURE=0.7
+MAX_TOKENS=2000
+
+# Vector Store Configuration
+EMBEDDING_MODEL=all-MiniLM-L6-v2
+TOP_K_DOCUMENTS=5
+
+# Monitoring
+PROMETHEUS_PORT=9090
+GRAFANA_PORT=3000
+METRICS_PORT=8000
+
+# Application
+STREAMLIT_PORT=8501
+DEBUG=False

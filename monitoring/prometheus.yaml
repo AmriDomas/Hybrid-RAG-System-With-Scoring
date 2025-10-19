@@ -1,0 +1,20 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    monitor: 'rag-monitor'
+
+scrape_configs:
+  - job_name: 'rag_system'
+    static_configs:
+      - targets: ['localhost:8003']
+        labels:
+          service: 'hybrid-rag'
+          environment: 'development'
+    
+    scrape_interval: 5s
+    metrics_path: '/metrics'
+
+  - job_name: 'prometheus'  # Metrik internal Prometheus
+    static_configs:
+      - targets: ['localhost:9090']
